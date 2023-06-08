@@ -5,7 +5,7 @@ Express Green Cafe collects feedback from its customers. This application was cr
 ## The project used:
 
 `«React»`
-`«React Component»`
+`«React Hooks»`
 `«Javascript»`
 `«Module CSS»`
 `«prop-types / npm»`
