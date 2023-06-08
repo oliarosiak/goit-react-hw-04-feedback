@@ -1,0 +1,27 @@
+.block{
+    display: flex;
+    margin: 0 auto 16px;
+    padding: 8px 0;
+    gap: 28px; 
+    justify-content: center;
+}
+
+.button{ 
+    width: 184px;
+    height: 68px;    
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--header-color); 
+    text-shadow: 0px 0px 8px var(--second-shadow-color);
+    border: 2px solid var(--border-color);
+    border-radius: 28px;
+    box-shadow: 0 0 16px var(--third-shadow-color);
+    cursor: pointer;
+    background: var(--main-gradient);
+}
+
+.button:hover{
+    box-shadow: 0 0 16px var(--main-shadow-color);  
+    text-shadow: 0px 0px 8px var(--main-shadow-color);  
+}
+

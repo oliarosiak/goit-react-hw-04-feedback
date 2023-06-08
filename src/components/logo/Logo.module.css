@@ -1,0 +1,20 @@
+.wrapper{   
+    width: 780px;
+    margin: 50px auto 28px;
+    padding: 8px 0;
+    background: var(--main-gradient); 
+    border: 2px solid var(--border-color);
+    border-radius: 28px;   
+}
+
+.header{
+    margin-bottom: 8px;
+    font-size: 40px;
+    color: var(--header-color);   
+    text-shadow: 0px 0px 20px var(--main-shadow-color);
+}
+
+.text{
+    font-size: 20px;
+    color: var(--text-color);
+}

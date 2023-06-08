@@ -1,0 +1,10 @@
+.section{
+    display: inline-block;
+    width: 550px;
+    margin-bottom: 16px;
+    padding: 8px 0;    
+    border-radius: 20px;    
+    font-size: 28px;
+    color: var(--text-color); 
+    background: var(--second-gradient);
+}

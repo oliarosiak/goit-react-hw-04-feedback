@@ -1,5 +1,16 @@
 @import-normalize; /* bring in normalize.css styles */
 
+:root {
+  --main-gradient: linear-gradient(to right, #ff5f6d, #ffc371);;
+  --second-gradient: linear-gradient(to right, #f79d00, #64f38c);
+  --header-color: #1e6141;
+  --text-color: #095c42; 
+  --border-color: #124a4e;
+  --main-shadow-color:#eff59a;
+  --second-shadow-color:#ffc371;
+  --third-shadow-color: #1c4e36;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,9 +18,46 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  height: 90vh;
+  font-size: 25px;
+  color: darkgreen;
+  text-align: center;  
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  background-image: url('https://picsum.photos/id/163/2000/1333');
+  background-repeat: no-repeat;     
+  background-position: left top;
+  background-size: cover;
+
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
